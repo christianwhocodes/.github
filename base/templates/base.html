@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="theme-color" content="" />
+    <meta name="author" content="" />
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    </title>
+
+    <!-- Favicons & Webmanifest -->
+    <link rel="icon" href="" />
+    <link rel="apple-touch-icon" href="" />
+    <link rel="manifest" href="" />
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sacramento" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="{% static 'bootstrap/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'aos/aos.css' %}" />
+
+    <!-- Custom CSS -->
+    {% block style %}
+
+    {% endblock style %}
+
+    <!-- Vendor JS -->
+    <script src="{% static 'bootstrap/bootstrap.bundle.min.js' %}" defer></script>
+    <script src="{% static 'aos/aos.js' %}" defer></script>
+
+    <!-- Custom JS -->
+    {% block script %}
+
+    {% endblock script %}
+</head>
+
+<body>
+    <main>
+        {% block main %}
+
+        {% endblock main %}
+    </main>
+</body>
+
+</html>
