@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # third party apps
+    "easy_thumbnails",
     # my apps
+    "base",
     "home",
 ]
 
@@ -70,6 +73,8 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                # my context processors
+                "base.context_processors.base",
             ],
         },
     },
@@ -132,8 +137,9 @@ STATIC_URL = "static/"
 STATIC_ROOT = BASE_DIR / "static"
 
 STATICFILES_DIRS = [
-    BASE_DIR / "base/vendors",
-    BASE_DIR / "home/assets",
+    BASE_DIR / "base/vendor",
+    BASE_DIR / "base/static",
+    BASE_DIR / "home/static",
 ]
 
 
@@ -149,3 +155,23 @@ MEDIA_ROOT = BASE_DIR / "media"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# Email
+# https://docs.djangoproject.com/en/4.2/topics/email/
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+# EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
+EMAIL_HOST = config("EMAIL_HOST")
+
+EMAIL_PORT = config("EMAIL_PORT", cast=int)
+
+EMAIL_USE_TLS = config("EMAIL_USE_TLS", cast=bool)
+
+EMAIL_USE_SSL = config("EMAIL_USE_SSL", cast=bool)
+
+EMAIL_HOST_USER = config("EMAIL_HOST_USER")
+
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
+
+DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
