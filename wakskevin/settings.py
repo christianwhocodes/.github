@@ -138,8 +138,8 @@ STATIC_ROOT = BASE_DIR / "static"
 
 STATICFILES_DIRS = [
     BASE_DIR / "base/vendor",
-    BASE_DIR / "base/static",
-    BASE_DIR / "home/static",
+    BASE_DIR / "base/staticfiles",
+    BASE_DIR / "home/staticfiles",
 ]
 
 
