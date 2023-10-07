@@ -59,8 +59,8 @@ class WaksKevin(models.Model):
         blank=True, default="https://www.linkedin.com/in/WaksKevin/"
     )
     github = models.URLField(blank=True, default="https://github.com/WaksKevin/")
+    facebook = models.URLField(blank=True, default="https://www.facebook.com/kevin.wakhisi.50/")
     twitter = models.URLField(blank=True)
-    facebook = models.URLField(blank=True)
     instagram = models.URLField(blank=True)
 
     #########################################################
