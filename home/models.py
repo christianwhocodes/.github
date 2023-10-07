@@ -3,10 +3,16 @@ from django.db import models
 
 
 class Hero(models.Model):
-    bg = models.ImageField(
+    desktop_bg = models.ImageField(
         upload_to="home/hero",
         verbose_name="Background image",
-        help_text="Upload a background image for the hero section (preferably 1920x1053 size)",
+        help_text="Upload a hero background image for desktop display",
+    )
+    mobile_bg = models.ImageField(
+        upload_to="home/hero",
+        verbose_name="Background image",
+        help_text="Upload a hero background image for mobile display. If not provided, the desktop image will be used instead.",
+        blank=True,
     )
 
     typed_item_1 = models.CharField(
