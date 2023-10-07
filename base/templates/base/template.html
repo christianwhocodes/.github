@@ -1,0 +1,112 @@
+{% load static %}
+{% load thumbnail %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="theme-color" content="{{ WaksKevin.theme_color }}">
+        <meta name="author" content="{{ WaksKevin.author }}">
+        <meta name="description" content="{{ WaksKevin.title }}">
+        <meta name="keywords" content="">
+        <title>{{ WaksKevin.author }} -
+            {% block title %}
+            {% endblock title %}
+        </title>
+        <!-- Favicons & Webmanifest -->
+
+        <link href="{% thumbnail WaksKevin.logo '32x32' crop='smart' %}" rel="icon">
+        <link href="{% thumbnail WaksKevin.logo '152x152' crop='smart' %}" rel="apple-touch-icon">
+       
+        <!-- Webmanifest -->
+        <link rel="manifest" href="{{ WaksKevin.manifest.url }}">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+              rel="stylesheet">
+        <!-- Vendor CSS -->
+        <link href="{% static 'aos/aos.css' %}" rel="stylesheet">
+        <link href="{% static 'bootstrap/css/bootstrap.min.css' %}"
+              rel="stylesheet">
+        <link href="{% static 'bootstrap-icons/bootstrap-icons.css' %}"
+              rel="stylesheet">
+        <link href="{% static 'boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+        <link href="{% static 'glightbox/css/glightbox.min.css' %}"
+              rel="stylesheet">
+        <link href="{% static 'swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+        <!-- Vendor JS -->
+        <script src="{% static 'purecounter/purecounter_vanilla.js' %}" defer></script>
+        <script src="{% static 'aos/aos.js' %}" defer></script>
+        <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}" defer></script>
+        <script src="{% static 'glightbox/js/glightbox.min.js' %}" defer></script>
+        <script src="{% static 'isotope-layout/isotope.pkgd.min.js' %}" defer></script>
+        <script src="{% static 'swiper/swiper-bundle.min.js' %}" defer></script>
+        <script src="{% static 'typed.js/typed.umd.js' %}" defer></script>
+        <script src="{% static 'waypoints/noframework.waypoints.js' %}" defer></script>
+        <!-- base CSS -->
+        <link href="{% static 'base/css/style.css' %}" rel="stylesheet">
+        <!-- other app's CSS File -->
+        {% block style %}
+        {% endblock style %}
+        <!-- Base JS -->
+        <script src="{% static 'base/js/script.js' %}" defer></script>
+        <!-- other app's CSS File -->
+        {% block script %}
+        {% endblock script %}
+    </head>
+    <body>
+        <!-- ======= Mobile nav toggle button ======= -->
+        <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+        <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+        <!-- ======= Header ======= -->
+        <header id="header" class="d-flex flex-column justify-content-center">
+            <nav id="navbar" class="navbar nav-menu">
+                <ul>
+                    <li>
+                        <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        {% block content %}
+        {% endblock content %}
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="container">
+                <h3>{{ WaksKevin.author }}</h3>
+                <p>{{ WaksKevin.title }}</p>
+                <div class="social-links">
+                    {% if WaksKevin.twitter %}
+                        <a href="{{ WaksKevin.twitter }}" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    {% endif %}
+                    {% if WaksKevin.facebook %}
+                        <a href="{{ WaksKevin.facebook }}" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    {% endif %}
+                    {% if WaksKevin.instagram %}
+                        <a href="{{ WaksKevin.instagram }}" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    {% endif %}
+                    {% if WaksKevin.github %}<a href="{{ WaksKevin.github }}" class="github"><i class="bx bxl-github"></i></a>{% endif %}
+                    {% if WaksKevin.linkedin %}
+                        <a href="{{ WaksKevin.linkedin }}" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    {% endif %}
+                </div>
+                <div class="copyright">
+                    © Copyright <strong><span>Kevin Wakhisi</span></strong>. All Rights Reserved
+                </div>
+            </div>
+        </footer>
+        <!-- ======= Preloader ======= -->
+        <div id="preloader"></div>
+        <!-- ======= Back-to-Top button ======= -->
+        <a href="#"
+           class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </body>
+</html>
