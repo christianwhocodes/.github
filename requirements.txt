@@ -2,4 +2,6 @@ django
 python-decouple
 psycopg2-binary
 pillow
+easy-thumbnails
 gunicorn
+djlint

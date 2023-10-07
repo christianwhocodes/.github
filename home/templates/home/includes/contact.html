@@ -1,0 +1,55 @@
+<section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Get in touch with me easily and conveniently.</p>
+        </div>
+        <div class="row mt-1">
+            <div class="col-lg-4">
+                <div class="info">
+                    <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Location:</h4>
+                        <p>{{ WaksKevin.location }}</p>
+                    </div>
+                    <div class="email">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>{{ WaksKevin.email }}</p>
+                    </div>
+                    <div class="phone">
+                        <i class="bi bi-phone"></i>
+                        <h4>Call:</h4>
+                        <p>{{ WaksKevin.phone }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 mt-5 mt-lg-0">
+                <form action="{% url 'index' %}#contact"
+                      method="post"
+                      role="form"
+                      class="contact-form">
+                    {% if messages %}
+                        {% for message in messages %}
+                            {% if message.tags == 'error' %}
+                                <div class="alert alert-danger text-center">{{ message }}</div>
+                            {% elif message.tags == 'success' %}
+                                <div class="alert alert-success text-center">{{ message }}</div>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-md-6 form-group">{{ contactform.name }}</div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">{{ contactform.email }}</div>
+                    </div>
+                    <div class="form-group mt-3">{{ contactform.subject }}</div>
+                    <div class="form-group mt-3">{{ contactform.message }}</div>
+                    <div class="text-center">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

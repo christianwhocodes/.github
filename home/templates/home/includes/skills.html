@@ -1,0 +1,55 @@
+<section id="skills" class="skills section-bg">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Skills</h2>
+            <p>Discover the technologies that I am proficient in and have earned recognition for.</p>
+        </div>
+        <div class="row skills-content">
+            {% if skills.count > 3 %}
+                <!-- if skills count is more than 6 -->
+                <div class="col-lg-6">
+                    {% for skill in skills.all|slice:skill_group_A %}
+                        <div class="progress">
+                            <span class="skill">{{ skill.name }} <i class="val">{{ skill.value }}%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar"
+                                     role="progressbar"
+                                     aria-valuenow="{{ skill.value }}"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="col-lg-6">
+                    {% for skill in skills.all|slice:skill_group_B %}
+                        <div class="progress">
+                            <span class="skill">{{ skill.name }} <i class="val">{{ skill.value }}%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar"
+                                     role="progressbar"
+                                     aria-valuenow="{{ skill.value }}"
+                                     aria-valuemin="0"
+                                     aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <!-- if skills count is less than 6 -->
+                {% for skill in skills.all %}
+                    <div class="progress">
+                        <span class="skill">{{ skill.name }} <i class="val">{{ skill.value }}%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar"
+                                 role="progressbar"
+                                 aria-valuenow="{{ skill.value }}"
+                                 aria-valuemin="0"
+                                 aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
