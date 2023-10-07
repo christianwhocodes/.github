@@ -1,18 +1,58 @@
-{% extends 'base.html' %}
+{% extends "base/template.html" %}
 {% load static %}
-
 {% block title %}
-Kevin Wakhisi
+  Hi there!
 {% endblock title %}
-
 {% block style %}
-<link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+  <style>
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("{{ hero.bg.url }}") top right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  </style>
+  <link href="{% static 'home/css/style.css' %}" rel="stylesheet">
 {% endblock style %}
-
-{% block script %}
-<script src="{% static 'home/js/script.js' %}" defer></script>
-{% endblock script %}
-
-{% block main %}
-<h1 class='text-success'>Coming Soon 😊</h1>
-{% endblock main %}
+{% block content %}
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>{{ WaksKevin.name }}</h1>
+      <p>
+        I'm
+        <span class="typed"
+              data-typed-items="{{ hero.typed_item_1 }}, {{ hero.typed_item_2 }}, {{ hero.typed_item_3 }}, {{ hero.typed_item_4 }}"></span>
+      </p>
+      <div class="social-links">
+        {% if WaksKevin.twitter %}
+          <a href="{{ WaksKevin.twitter }}" class="twitter"><i class="bx bxl-twitter"></i></a>
+        {% endif %}
+        {% if WaksKevin.facebook %}
+          <a href="{{ WaksKevin.facebook }}" class="facebook"><i class="bx bxl-facebook"></i></a>
+        {% endif %}
+        {% if WaksKevin.instagram %}
+          <a href="{{ WaksKevin.instagram }}" class="instagram"><i class="bx bxl-instagram"></i></a>
+        {% endif %}
+        {% if WaksKevin.github %}<a href="{{ WaksKevin.github }}" class="github"><i class="bx bxl-github"></i></a>{% endif %}
+        {% if WaksKevin.linkedin %}
+          <a href="{{ WaksKevin.linkedin }}" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  <main id="main">
+      <!-- ======= About Section ======= -->
+      {% include "home/includes/about.html" %}
+      <!-- ======= Facts Section ======= -->
+      {% include "home/includes/facts.html" %}
+      <!-- ======= Skills Section ======= -->
+      {% include "home/includes/skills.html" %}
+      <!-- ======= Resume Section ======= -->
+      {% include "home/includes/resume.html" %}
+      <!-- ======= Contact Section ======= -->
+      {% include "home/includes/contact.html" %}
+  </main>
+{% endblock content %}
