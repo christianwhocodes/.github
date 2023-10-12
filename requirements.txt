@@ -6,4 +6,5 @@ easy-thumbnails
 gunicorn
 djlint
 numpy
+scikit-learn
 django-widget-tweaks
