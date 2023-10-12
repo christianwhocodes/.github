@@ -5,3 +5,5 @@ pillow
 easy-thumbnails
 gunicorn
 djlint
+numpy
+django-widget-tweaks

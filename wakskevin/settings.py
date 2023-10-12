@@ -43,9 +43,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # third party apps
     "easy_thumbnails",
+    'widget_tweaks',
     # my apps
     "base",
     "home",
+    # my projects
+    "project_heartdiseasedetection",
 ]
 
 MIDDLEWARE = [
@@ -140,6 +143,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "base/vendor",
     BASE_DIR / "base/staticfiles",
     BASE_DIR / "home/staticfiles",
+    BASE_DIR / "project_heartdiseasedetection/staticfiles",
 ]
 
 
