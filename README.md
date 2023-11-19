@@ -9,7 +9,7 @@
     <a href="https://www.kevinwakhisi.info/" target="_blank">
       <img src="https://img.shields.io/badge/Website-blue?style=flat-square&logo=https%3A%2F%2Fwww.kevinwakhisi.info%2Fimages%2Flogo.png" alt="my website portfolio with logo"> 
     </a>
-    <a href="https://www.linkedin.com/in/kevin-w-882392258/" target="_blank">
+    <a href="https://www.linkedin.com/in/WaksKevin/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
     </a>
 </p>
@@ -29,6 +29,7 @@
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/WaksKevin)
 [![Flask](https://img.shields.io/badge/flask-black?style=for-the-badge&logo=flask)](https://github.com/WaksKevin)
 [![Bootstrap5](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/WaksKevin)
+[![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/WaksKevin)
 
 ### OS
 
