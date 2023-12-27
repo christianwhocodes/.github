@@ -3,7 +3,7 @@
 <p align="center">
     <b>...but the people who know their God shall be strong, and carry out great exploits. (Daniel 11:32)</b><br><br>
     <i>
-        Python and Django Enthusiast<br>
+        Code and AI Enthusiast<br>
         Software Engineer in the making!<br>
     </i><br>
     <a href="https://www.kevinwakhisi.info/" target="_blank">
