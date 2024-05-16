@@ -6,7 +6,7 @@
         Code and AI Enthusiast<br>
         Software Engineer in the making!<br>
     </i><br>
-    <a href="https://www.kevinwakhisi.info/" target="_blank">
+    <a href="https://wakskevin.github.io/" target="_blank">
       <img src="https://img.shields.io/badge/Website-blue?style=flat-square&logo=https%3A%2F%2Fwww.kevinwakhisi.info%2Fimages%2Flogo.png" alt="my website portfolio with logo"> 
     </a>
     <a href="https://www.linkedin.com/in/WaksKevin/" target="_blank">
@@ -16,20 +16,19 @@
 
 ### Languages
 
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/WaksKevin)
-[![C](https://img.shields.io/badge/c-black?style=for-the-badge&logo=c)](https://github.com/WaksKevin)
 [![JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/WaksKevin)
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/WaksKevin)
 [![CSS3](https://img.shields.io/badge/css-black?style=for-the-badge&logo=css3)](https://github.com/WaksKevin)
 [![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/WaksKevin)
 [![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/WaksKevin)
-[![PHP](https://img.shields.io/badge/php-black?style=for-the-badge&logo=php)](https://github.com/WaksKevin)
 
 ### Frameworks
 
-[![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/WaksKevin)
-[![Flask](https://img.shields.io/badge/flask-black?style=for-the-badge&logo=flask)](https://github.com/WaksKevin)
-[![Bootstrap5](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/WaksKevin)
 [![React](https://img.shields.io/badge/react-black?style=for-the-badge&logo=react)](https://github.com/WaksKevin)
+[![Next](https://img.shields.io/badge/next-black?style=for-the-badge&logo=next)](https://github.com/WaksKevin)
+[![Expo](https://img.shields.io/badge/expo-black?style=for-the-badge&logo=expo)](https://github.com/WaksKevin)
+[![Bootstrap5](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/WaksKevin)
+[![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/WaksKevin)
 
 ### OS
 
