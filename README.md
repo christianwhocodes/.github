@@ -5,9 +5,6 @@
     <i>
         Software Engineer in the house!<br>
     </i><br>
-    <!-- <a href="https://vokewasike.github.io/" target="_blank">
-      <img src="https://img.shields.io/badge/Website-blue?style=flat-square&logo=https%3A%2F%2Fwww.kevinwasike.info%2Fimages%2Flogo.png" alt="my website portfolio with logo"> 
-    </a> -->
   <a href="https://www.linkedin.com/in/vokewasike/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -15,12 +12,11 @@
 
 ### Languages
 
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/vokewasike)
-[![JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/vokewasike)
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python&logoColor=green)](https://github.com/vokewasike)
 [![TypeScript](https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript)](https://github.com/vokewasike)
-[![CSS3](https://img.shields.io/badge/css-black?style=for-the-badge&logo=css3)](https://github.com/vokewasike)
-[![HTML5](https://img.shields.io/badge/html5-black?style=for-the-badge&logo=html5)](https://github.com/vokewasike)
+[![HTML & CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=html5)](https://github.com/vokewasike)
 [![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/vokewasike)
+
 
 ### Frameworks
 
@@ -45,7 +41,7 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vokewasike&theme=transparent" />
   </a>
   <a href="https://github.com/vokewasike">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vokewasike&langs_count=10&exclude_repo=&hide=html,jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp&card_width=699&hide_border=true&theme=transparent" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vokewasike&langs_count=10&exclude_repo=&hide=html,c,jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp&card_width=699&hide_border=true&theme=transparent" />
   </a>
 </p>
 </details>
