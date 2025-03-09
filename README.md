@@ -42,7 +42,7 @@
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vokewasike&theme=transparent" />
   </a>
   <a href="https://github.com/vokewasike">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vokewasike&langs_count=10&exclude_repo=&hide=html,c,jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp&card_width=699&hide_border=true&theme=transparent" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vokewasike&langs_count=10&exclude_repo=&hide=c,jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp&card_width=699&hide_border=true&theme=transparent" />
   </a>
 </p>
 </details>
