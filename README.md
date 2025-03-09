@@ -11,23 +11,31 @@
 </p>
 
 ### Languages
+
+[![TypeScript & JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/vokewasike)
+
+[![HTML & CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=html5)](https://github.com/vokewasike)
+
+[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/vokewasike)
 
 [![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python&logoColor=green)](https://github.com/vokewasike)
-[![JavaScript](https://img.shields.io/badge/javascript-black?style=for-the-badge&logo=javascript)](https://github.com/vokewasike)
-[![HTML & CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=html5)](https://github.com/vokewasike)
-[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/vokewasike)
 
 
 ### Frameworks
+
+[![Next](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js)](https://github.com/vokewasike)
+
+[![Tailwindcss](https://img.shields.io/badge/tailwindcss-black?style=for-the-badge&logo=tailwindcss)](https://github.com/vokewasike)
 
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/vokewasike)
-[![Next](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js)](https://github.com/vokewasike)
-[![Tailwindcss](https://img.shields.io/badge/tailwindcss-black?style=for-the-badge&logo=tailwindcss)](https://github.com/vokewasike)
+
+[![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/vokewasike)
 
 ### OS
 
-[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/vokewasike)
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/vokewasike)
+
+[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/vokewasike)
 
 <details>
 <p align="center">
