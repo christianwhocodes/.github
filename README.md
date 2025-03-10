@@ -10,27 +10,32 @@
   </a>
 </p>
 
-### Languages
-
-[![TypeScript & JavaScript](https://img.shields.io/badge/TypeScript_&_Javascript-black?style=for-the-badge&logo=javascript)](https://github.com/vokewasike)
-[![HTML & CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=html5)](https://github.com/vokewasike)
-[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/vokewasike)
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python&logoColor=green)](https://github.com/vokewasike)
+---
 
+### Primary Languages
 
-### Frameworks
-
+[![JavaScript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)](https://github.com/vokewasike)
+[![CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=css3)](https://github.com/vokewasike)
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/vokewasike)
+
+---
+
+### Primary Frameworks
+
 [![Next](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js)](https://github.com/vokewasike)
 [![Tailwindcss](https://img.shields.io/badge/tailwindcss-black?style=for-the-badge&logo=tailwindcss)](https://github.com/vokewasike)
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/vokewasike)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/vokewasike)
 
-### OS
+---
+
+### OSs
 
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/vokewasike)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/vokewasike)
 
-<details>
+---
+
 <p align="center">
   <a href="https://github.com/vokewasike">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vokewasike&theme=transparent" />
@@ -41,19 +46,8 @@
   <a href="https://github.com/vokewasike">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vokewasike&theme=transparent" />
   </a>
-  <a href="https://github.com/vokewasike">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vokewasike&langs_count=10&exclude_repo=&hide=c,jupyter%20notebook,vim%20script,cmake,makefile,batchfile,emacs%20lisp&card_width=699&hide_border=true&theme=transparent" />
-  </a>
 </p>
-</details>
-<!--
-<p align="center">
-  <a href="https://github.com/vokewasike">
-    <img src="https://komarev.com/ghpvc/?username=vokewasike&color=blue&style=flat)" />
-  </a>
-</p>
-<br><br>
--->
+
 <!--
 - 🔭 I’m currently working on an vehicle b
 
