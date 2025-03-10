@@ -10,7 +10,6 @@
   </a>
 </p>
 
----
 
 ### Primary Languages
 
@@ -18,7 +17,6 @@
 [![CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=css3)](https://github.com/vokewasike)
 [![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/vokewasike)
 
----
 
 ### Primary Frameworks
 
@@ -27,14 +25,12 @@
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/vokewasike)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/vokewasike)
 
----
 
 ### OSs
 
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/vokewasike)
 [![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/vokewasike)
 
----
 
 <p align="center">
   <a href="https://github.com/vokewasike">
