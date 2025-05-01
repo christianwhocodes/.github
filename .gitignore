@@ -1,8 +1,5 @@
-.vscode
-static
-media
-db.sqlite3
+/.vscode
+/public
+/db.sqlite3
 *env
-__pycache__
-TODO.txt
-~
+__pycache__/
