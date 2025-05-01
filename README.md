@@ -13,17 +13,17 @@
 
 ### Primary Languages
 
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/christianwhocodes)
 [![JavaScript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)](https://github.com/christianwhocodes)
 [![CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=css3)](https://github.com/christianwhocodes)
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/christianwhocodes)
 
 
 ### Primary Frameworks
 
-[![Next](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js)](https://github.com/christianwhocodes)
-[![Tailwindcss](https://img.shields.io/badge/tailwindcss-black?style=for-the-badge&logo=tailwindcss)](https://github.com/christianwhocodes)
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/christianwhocodes)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/christianwhocodes)
+[![Next](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js)](https://github.com/christianwhocodes)
+[![Tailwindcss](https://img.shields.io/badge/tailwindcss-black?style=for-the-badge&logo=tailwindcss)](https://github.com/christianwhocodes)
 
 
 ### OSs
