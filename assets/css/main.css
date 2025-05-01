@@ -694,6 +694,16 @@ section,
   justify-content: center;
 }
 
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.55);
+  /* Adjust opacity as needed */
+  pointer-events: none;
+}
+
 .hero img {
   position: absolute;
   inset: 0;
