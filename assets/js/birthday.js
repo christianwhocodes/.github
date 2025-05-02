@@ -58,7 +58,6 @@ function updateHeroWithWishes(wishes) {
       <p>May your new year be <span class="typed" data-typed-items="${wishes.join(', ')}"></span><span class="typed-cursor typed-cursor--blink"></span></p>
       <div class="social-links">
         <a href="https://github.com/christianwhocodes/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/christianwhocodes" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
       </div>
     `;
 
