@@ -1,9 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Check if today is May 2nd
-  const today = new Date();
-  if (today.getMonth() === 4 && today.getDate() === 2) { // Months are 0-indexed
-    fetchBirthdayWishes();
-  }
+  fetch('https://worldtimeapi.org/api/timezone/Africa/Nairobi')
+    .then(response => response.json())
+    .then(data => {
+      const currentDate = new Date(data.datetime); // ISO string
+      const month = currentDate.getUTCMonth(); // 0-indexed
+      const day = currentDate.getUTCDate();
+
+      if (month === 4 && day === 2) {
+        fetchBirthdayWishes();
+      }
+    })
+    .catch(error => {
+      console.error('Could not fetch time from API. Falling back to local time.', error);
+
+      const today = new Date();
+      if (today.getMonth() === 4 && today.getDate() === 2) {
+        fetchBirthdayWishes();
+      }
+    });
 });
 
 const defaultWishes = [
