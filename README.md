@@ -11,14 +11,16 @@
 </p>
 
 
-### Primary Languages
+### Languages
 
-[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/christianwhocodes)
+[![HTML](https://img.shields.io/badge/HTML-black?style=for-the-badge&logo=html5)](https://github.com/christianwhocodes)
+[![CSS](https://img.shields.io/badge/CSS-black?style=for-the-badge&logo=css3)](https://github.com/christianwhocodes)
 [![JavaScript](https://img.shields.io/badge/Javascript-black?style=for-the-badge&logo=javascript)](https://github.com/christianwhocodes)
-[![CSS](https://img.shields.io/badge/HTML_&_CSS-black?style=for-the-badge&logo=css3)](https://github.com/christianwhocodes)
+[![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/christianwhocodes)
+[![SQL](https://img.shields.io/badge/sql-black?style=for-the-badge&logo=postgresql)](https://github.com/christianwhocodes)
 
 
-### Primary Frameworks
+### Frameworks
 
 [![Django](https://img.shields.io/badge/django-black?style=for-the-badge&logo=django)](https://github.com/christianwhocodes)
 [![Bootstrap](https://img.shields.io/badge/bootstrap-black?style=for-the-badge&logo=bootstrap)](https://github.com/christianwhocodes)
