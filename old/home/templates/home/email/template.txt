@@ -1,8 +1,0 @@
-Name: {{ name }}
-Email: {{ email }}
-Subject: {{ subject }}
-
-
-{{ message }}
-
-Sent from: {{ url }}
