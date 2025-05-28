@@ -5,9 +5,12 @@
     <!-- <i>
         Software Engineer in the house!<br>
     </i><br> -->
-  <!-- <a href="https://www.linkedin.com/in/christianwhocodes/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a> -->
+  <a href="https://www.christianwhocodes.space" target="_blank">
+      <img src="https://img.shields.io/badge/Website-blue?style=for-the-badge&logo=website&logoColor=white" alt="website">
+  </a>
+  <a href="https://www.linkedin.com/in/christianwhocodes" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedIn">
+  </a>
 </p>
 
 
