@@ -1,5 +1,5 @@
 /.vscode
-/public
-/db.sqlite3
+/lib
+*.sqlite3
 *env
 __pycache__/
