@@ -1,0 +1,41 @@
+[project]
+name = "venv"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+django = "^5.2.3"
+djangorestframework = "^3.16.0"
+django-filter = "^25.1"
+django-phonenumber-field = { extras = ["phonenumberslite"], version = "^8.1.0" }
+django-sass-processor = "^1.4.1"
+django-compressor = "^4.5.1"
+libsass = "^0.23.0"
+python-decouple = "^3.8"
+tzdata = "^2025.2"
+pillow = "^11.2.1"
+psycopg = { extras = ["binary"], version = "^3.2.9" }
+gunicorn = "^23.0.0"
+termcolor = "^3.1.0"
+django-ckeditor-5 = "^0.2.18"
+
+[tool.poetry.group.dev.dependencies]
+django-browser-reload = "^1.18.0"
+djlint = "^1.36.4"
+
+[tool.djlint]
+format_css = true
+format_js = true
+ignore = "H006,H016,H021,H023,H030,H031,T002"
+blank_line_before_tag = "if,block,for"
+blank_line_after_tag = "load,endif,endblock,endfor"
+
+[tool.djlint.css]
+indent_size = 2
+
+[tool.djlint.js]
+indent_size = 2
