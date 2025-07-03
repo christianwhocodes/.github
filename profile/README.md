@@ -6,8 +6,9 @@
   <a href="https://github.com/christianwhocodes">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=christianwhocodes&theme=transparent" />
   </a>
+  <!-- https://streak-stats.demolab.com/demo/ -->
   <a href="https://github.com/christianwhocodes">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=christianwhocodes&hide_border=true&card_width=338&theme=transparent" />
+    <img src="https://streak-stats.demolab.com?user=christianwhocodes&theme=transparent&hide_border=true&exclude_days=Sun" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/christianwhocodes">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=christianwhocodes&theme=transparent" />
