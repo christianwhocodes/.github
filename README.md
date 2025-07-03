@@ -1,6 +1,6 @@
-![](assets/img/profile.jpg)
+![](profile.jpg)
 
-# [ChristianWhoCodes' GitHub Profile & Assets](https://github.com/christianwhocodes/.github/)
+# [A _Christian Who Codes_—Welcome to my GitHub profile!](https://github.com/christianwhocodes/.github/)
 
 This repository serves as the central location for my public GitHub profile README and other associated assets.
 
