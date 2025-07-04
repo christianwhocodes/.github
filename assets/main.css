@@ -1,0 +1,22 @@
+/* Custom AOS improvements */
+[data-aos="fade-up-scale"] {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition-property: opacity, transform;
+}
+
+[data-aos="fade-up-scale"].aos-animate {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Ensure button remains clickable during animation */
+.btn[data-aos] {
+  pointer-events: auto !important;
+}
+
+/* Fallback for when AOS doesn't load */
+.no-aos [data-aos] {
+  opacity: 1 !important;
+  transform: none !important;
+}
