@@ -20,3 +20,14 @@
   opacity: 1 !important;
   transform: none !important;
 }
+
+/* Limit preview image width */
+.preview-img {
+  max-width: 400px;
+}
+
+/* Keep logo image proportional to text size */
+.logo-img {
+  height: 2em;
+  width: auto;
+}

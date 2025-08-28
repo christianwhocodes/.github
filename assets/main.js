@@ -19,8 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return window.innerWidth < 768;
     },
   });
-
-  console.log("AOS initialized successfully");
 });
 
 // Refresh AOS on window resize (throttled)
