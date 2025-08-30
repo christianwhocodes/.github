@@ -8,7 +8,7 @@
   </a>
   <!-- https://streak-stats.demolab.com/demo/ -->
   <a href="https://github.com/christianwhocodes">
-    <img src="https://streak-stats.demolab.com?user=christianwhocodes&theme=transparent&hide_border=true&exclude_days=Sun" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=christianwhocodes&theme=transparent&hide_border=true" alt="GitHub Streak" />
   </a>
   <a href="https://github.com/christianwhocodes">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=christianwhocodes&theme=transparent" />
