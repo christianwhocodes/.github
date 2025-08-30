@@ -1,6 +1,4 @@
-![](./assets/img/social-preview.png)
-
-# [A _Christian Who Codes_—Welcome to my GitHub profile!](https://github.com/christianwhocodes/.github/)
+# [_Christian Who Codes_—Welcome to my GitHub profile!](https://github.com/christianwhocodes/.github/)
 
 This repository serves as the central location for my public GitHub profile and other associated assets.
 
