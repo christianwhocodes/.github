@@ -1,1 +1,4 @@
+# I like to customize folder icons on Windows to make my projects look more visually appealing.
+# However, these customizations create 'desktop.ini' files that I don't want cluttering my git history.
+
 desktop.ini
