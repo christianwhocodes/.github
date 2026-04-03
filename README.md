@@ -1,4 +1,4 @@
-# kvnwaks - GitHub configuration
+# kvnwaks
 
 This repository is a special `.github` directory containing my personal [GitHub profile](profile/README.md) configuration and default community health files.
 
