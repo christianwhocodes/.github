@@ -25,7 +25,6 @@ allowed-hosts = [
     "127.0.0.1",
     ".vercel.app",
 ]
-server = { use-asgi = true }
 internationalization = { timezone = "Africa/Nairobi" }
 db = { backend = "postgresql", use-vars = true, sslmode = "require" }
 storage = { backend = "vercelblob" }
