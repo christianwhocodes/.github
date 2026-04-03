@@ -23,6 +23,7 @@ allowed-hosts = [
     "www.christianwhocodes.space",
     "localhost",
     "127.0.0.1",
+    ".vercel.app",
 ]
 server = { use-asgi = true }
 internationalization = { time-zone = "Africa/Nairobi" }
