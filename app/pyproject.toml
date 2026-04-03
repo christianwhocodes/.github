@@ -7,7 +7,7 @@ name = "app-kvnwaks"
 version = "0.1.0"
 description = ""
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 dependencies = ["tawala[vercel,psycopg]>=1.3.2"]
 
 [dependency-groups]
@@ -23,7 +23,6 @@ allowed-hosts = [
     "www.christianwhocodes.space",
     "localhost",
     "127.0.0.1",
-    "github-nine-ruby.vercel.app",
 ]
 server = { use-asgi = true }
 internationalization = { time-zone = "Africa/Nairobi" }
