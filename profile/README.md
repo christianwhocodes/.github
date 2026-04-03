@@ -10,8 +10,8 @@
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kvnwaks&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/kvnwaks)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kvnwaks&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/kvnwaks)
+[![GitHub Streak](https://streak-stats.demolab.com?user=kvnwaks&theme=tokyonight&hide_border=true)](https://github.com/kvnwaks)
+[![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kvnwaks&theme=tokyonight)](https://github.com/kvnwaks)
 
 </div>
 
