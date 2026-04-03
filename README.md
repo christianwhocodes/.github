@@ -1,19 +1,35 @@
-# kvnwaks
+# .github Configuration
 
-This repository is a special `.github` directory containing my personal [GitHub profile](profile/README.md) configuration and default community health files.
+This repository contains the default community health files, templates, and configurations for the `@kvnwaks` GitHub account. 
 
 👉 **[Check out my actual GitHub Profile here!](https://github.com/kvnwaks)**
 
+## 📂 Contents
+
+* **Profile README (`/profile/README.md`)**: The content that appears on the main GitHub profile page.
+* **Community Health Files**: Default files (like `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`) that will apply to any repository under this account that does not have its own version.
+* **Templates**: Default Issue and Pull Request templates for repositories across the account.
+
+## 📖 More Information
+
+Files in this repository act as defaults for all public repositories under this account. For more information, see the [GitHub documentation on creating default community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file).
+
 <!--
-### What are community health files?
+### Folder Structure Guide
 
-On GitHub, "community health files" are standardized files that tell visitors and contributors how to interact with your repositories. When placed in this special `.github` repository, they act as the default fallback for all other repositories on your account (unless a repository overrides them).
+When you are ready to add them, place your community health files at the root of this repository:
 
-Common community health files you can keep here:
-- `CODE_OF_CONDUCT.md`: Standards for how people should behave.
-- `CONTRIBUTING.md`: How developers can contribute to your projects.
-- `ISSUE_TEMPLATE/` & `PULL_REQUEST_TEMPLATE.md`: Pre-filled text structures for issues/PRs.
-- `FUNDING.yml`: Displays a "Sponsor" button on your repositories.
-- `SECURITY.md`: Instructions on how to securely report vulnerabilities.
-- `SUPPORT.md`: Tells users where to get help with your projects.
+.github/
+├── README.md                      <-- This file
+├── profile/
+│   └── README.md                  <-- Your GitHub Profile page content
+├── CODE_OF_CONDUCT.md             <-- Default Code of Conduct
+├── CONTRIBUTING.md                <-- Default Contribution guidelines
+├── SECURITY.md                    <-- Default Security policy
+├── SUPPORT.md                     <-- Default Support instructions
+├── FUNDING.yml                    <-- Default Sponsor button setup
+├── PULL_REQUEST_TEMPLATE.md       <-- Default PR template
+└── ISSUE_TEMPLATE/                <-- Folder for default Issue templates
+    ├── bug_report.yml             
+    └── feature_request.yml        
 -->

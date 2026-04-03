@@ -1,17 +1,5 @@
-# Python-generated files
-__pycache__/
-
 # Temporary files
 /.tmp/
 
 # Environment variables file
 /.env
-
-# Virtual environment
-/.venv/
-
-# Ruff cache
-/.ruff_cache/
-
-# Static and media files
-/public/
