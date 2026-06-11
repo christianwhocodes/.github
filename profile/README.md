@@ -6,17 +6,6 @@
 
 </div>
 
----
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=kvnwaks&theme=tokyonight&hide_border=true)](https://github.com/kvnwaks)
-[![Top Langs](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kvnwaks&theme=tokyonight)](https://github.com/kvnwaks)
-
-</div>
-
----
-
 <div align="center">
 
 _"...but the people who know their God shall be strong and carry out exploits."_
